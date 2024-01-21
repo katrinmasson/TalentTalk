@@ -16,7 +16,7 @@ namespace talentTalk {
         lastPosition: string;
         specials: string;
         references: string;
-           // Zusätzliche Eigenschaften für Bewertungen und Notizen
+        // Zusätzliche Eigenschaften für Bewertungen und Notizen
         faehigkeiten: number;
         berufserfahrungen: number;
         softskills: number;
@@ -34,11 +34,10 @@ namespace talentTalk {
     let lastPosition: HTMLParagraphElement = <HTMLParagraphElement>document.getElementById("lastPosition");
     let specials: HTMLParagraphElement = <HTMLParagraphElement>document.getElementById("specials");
     let references: HTMLParagraphElement = <HTMLParagraphElement>document.getElementById("references");
-    faehigkeiten: number;
-        berufserfahrungen: number;
-        softskills: number;
-        mood: string;
-        input: string;
+    //let faehigkeiten: HTMLElement = <HTMLElement>document.getElementById("faehigkeiten");
+    //let berufserfahrungen: HTMLElement = <HTMLElement>document.getElementById("berufserfahrungen");
+    //let softskills: HTMLElement = <HTMLElement>document.getElementById("softskills");
+    //let textInput: HTMLInputElement = <HTMLInputElement>document.getElementById("textInput");
 
     bewerberInfo();
 

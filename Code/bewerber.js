@@ -13,6 +13,10 @@ var talentTalk;
     let lastPosition = document.getElementById("lastPosition");
     let specials = document.getElementById("specials");
     let references = document.getElementById("references");
+    //let faehigkeiten: HTMLElement = <HTMLElement>document.getElementById("faehigkeiten");
+    //let berufserfahrungen: HTMLElement = <HTMLElement>document.getElementById("berufserfahrungen");
+    //let softskills: HTMLElement = <HTMLElement>document.getElementById("softskills");
+    //let textInput: HTMLInputElement = <HTMLInputElement>document.getElementById("textInput");
     bewerberInfo();
     function bewerberInfo() {
         getData("bewerber.json");
